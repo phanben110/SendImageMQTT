@@ -20,7 +20,7 @@ def on_message(client, userdata, msg):
     dataImg = msg.payload.decode()                    
     data = json.loads(dataImg)                        
     img = np.array(data)                              
-    cv2.imwrite('bendeptrai.png', img)                
+    cv2.imwrite('output.png', img)                
     print(img.shape)                                  
                                                       
                                                       
