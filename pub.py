@@ -21,7 +21,7 @@ client.connect(broker, port)
 count = 0                                                     
                                                               
 while (1):                                                    
-    img = cv2.imread("b.jpg")                                 
+    img = cv2.imread("bendeptrai.png")                                 
     frame = img.tolist()                                      
     imgJson = json.dumps(frame)                               
     #message = f"ben dep trai {count}"                        
