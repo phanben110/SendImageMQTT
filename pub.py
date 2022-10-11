@@ -5,7 +5,7 @@ import random
 import json                                                   
 import cv2                                                    
 # hostname                                                    
-broker = "localhost"                                      
+broker = "20.204.100.76"                                      
 # port                                                        
 port = 1883                                                   
                                                               
